@@ -1,3 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
 metadata:
+  name: test doc
+  description: This is a test for my new doc
   annotations:
     backstage.io/techdocs-ref: dir:.
+spec:
+  type: library
+  owner: Lucas Divino
+  lifecycle: experimental
